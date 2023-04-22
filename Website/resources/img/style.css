@@ -1,0 +1,40 @@
+p {
+    font-size: 20px; /* Change the font size to 20 pixels */
+    line-height: 2.5; /* Increase the line spacing to 1.5 times the font size */
+  }
+  .text-container{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .navbar{
+    background-color: #5BFF88;
+    position: fixed;
+    top: 0;
+    width:100%;
+  }
+  body{
+    background-color:white;
+  }
+  footer{
+
+  width: 100%;
+  height: 100%;
+    
+    background-color: #5BFF88;
+        
+  }
+  .left-column {
+    width: 50%;
+    float: left;
+  }
+
+  .right-column {
+    width: 50%;
+    float: left;
+  }
+  .img-container{
+    width: 20%;
+    
+   
+  }
+
