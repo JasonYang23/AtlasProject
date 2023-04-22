@@ -39,4 +39,11 @@ p {
     
    
   }
+  fieldset > * {
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-left: 50px;
+  }
 
