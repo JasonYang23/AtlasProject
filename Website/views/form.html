@@ -20,11 +20,11 @@
                 <a class="navbar-brand" aria-current="page">Parent Teacher Center</a>
               </li>
               <li class="nav-item">
-                <a class="navbar-brand" href="form.html">form</a>
+                <a class="navbar-brand" href="form.html">Form</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="navbar-brand" >
-                  sign in
+                  Sign In
                 </a>
                 
               </li>
@@ -36,7 +36,23 @@
           </div>
         </div>
       </nav>
-      <h1 style="margin-top: 50px">Form</h1>
+      <h1 style="margin-top: 50px"></h1>
+      <form>
+        <fieldset id="Newsletter">
+          <legend>Join Our Newsletter</legend>
+          <label for="description">What best describes you?</label><br>
+          <input type="radio" id="parent" name="description" value="parent">
+          <label for="parent">Parent/Guardian</label><br>
+          <input type="radio" id="homeschooler" name="description" value="homeschooler">
+          <label for="homeschooler">Homeschooler</label><br>
+          <input type="radio" id="teacher" name="description" value="teacher">
+          <label for="teacher">Teacher</label><br>
+          <input type="radio" id="other" name="description" value="other">
+          <label for="other">Other:</label>
+          <input type="text" id="otherDescription" name="otherDescription"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+        </fieldset>
       <footer class=" row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" id="footer">
         <div class="col mb-3">
             <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
@@ -51,7 +67,7 @@
 
 
         <div class="col mb-3">
-            <h4>Buisiness hours</h4>
+            <h4>Business hours</h4>
             <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a  >9:00 AM–4:00 PM CLOSED WEEKENDS</a></li>
 
